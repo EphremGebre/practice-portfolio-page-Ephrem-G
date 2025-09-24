@@ -1,0 +1,133 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@600;800&display=swap');
+
+/* General Body */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f2ff; /* light blue background */
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #003366; /* dark blue */
+  color: #ffffff;
+  padding: 30px 0;
+  text-align: center;
+}
+header h1 {
+  margin: 10px 0 5px;
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+header p {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+header img {
+  width: 180px;
+  margin-top: 20px;
+  border-radius: 0; /* keep original shape */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Navigation */
+nav {
+  background: #00509e; /* medium blue */
+  padding: 12px 0;
+  text-align: center;
+}
+nav a {
+  color: #ffffff;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.05rem;
+}
+nav a:hover {
+  color: #ffcc00; /* highlight on hover */
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 25px 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+h2 {
+  color: #003366;
+  border-bottom: 2px solid #00509e;
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+ul {
+  list-style-type: square;
+  margin: 10px 0;
+  padding-left: 22px;
+  font-size: 1.1rem;
+}
+
+/* Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin-top: 15px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border: 2px solid #00509e;
+  box-shadow: 0 0 5px rgba(0,80,158,0.3);
+  outline: none;
+}
+button {
+  padding: 12px;
+  background-color: #00509e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #003366;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #003366;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+}
